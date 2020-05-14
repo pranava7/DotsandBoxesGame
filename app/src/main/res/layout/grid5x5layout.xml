@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Grid5x5Activity"
+    style="@style/AppTheme">
+
+
+    <com.example.dotsandboxesgame.Grid5x5
+        android:id="@+id/grid5x5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Player1"
+            android:textColorHint="@color/blue"
+            android:textColor="@color/blue"
+            android:inputType="text"
+            android:textSize="35sp"
+            android:background="@android:color/holo_red_dark"/>
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Player2"
+            android:textColorHint="@color/green"
+            android:textColor="@color/green"
+            android:inputType="text"
+            android:layout_alignParentRight="true"
+            android:textSize="35sp"
+            android:background="@color/Yellow"/>
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

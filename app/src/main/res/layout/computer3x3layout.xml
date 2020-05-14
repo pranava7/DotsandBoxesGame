@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/re"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Computer3x3Activity">
+
+
+    <com.example.dotsandboxesgame.Computer3x3
+        android:id="@+id/customview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/player1_edit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark"
+            android:hint="Player1"
+            android:inputType="text"
+            android:textColor="@color/blue"
+            android:textColorHint="@color/blue"
+            android:textSize="35sp" />
+
+        <EditText
+            android:id="@+id/player2_edit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:background="@color/Yellow"
+            android:hint="Player2"
+            android:inputType="text"
+            android:textColor="@color/green"
+            android:textColorHint="@color/green"
+            android:textSize="35sp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

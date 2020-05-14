@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DotsandBoxesGame</string>
+    <string name="winner">The winner is player 1</string>
+</resources>
